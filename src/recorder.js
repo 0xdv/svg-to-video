@@ -1,3 +1,5 @@
+import {queue} from 'd3-queue'
+
 export default Recorder
 
 function Recorder(options) {
@@ -56,7 +58,7 @@ function Recorder(options) {
 }
 
 Recorder.prototype.record = function() {
-    this.queue = window.d3.queue(1)
+    this.queue = queue(1)
     this.timer = setInterval(() => {
         this.queue.defer(this.drawImg, this.frame++)
     }, 1000 / this.options.fps)
