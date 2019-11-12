@@ -1,6 +1,6 @@
 import Recorder from './recorder'
 
-export default options => {
+export function init(options) {
     let {
         drawScene,
         width,

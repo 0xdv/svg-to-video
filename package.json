@@ -1,13 +1,16 @@
 {
     "name": "svg-to-video",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "",
     "main": "dist/svg-to-video.js",
     "scripts": {
-        "webpack": "webpack -w"
+        "demo:start": "http-server demo",
+        "demo:build": "webpack --config webpack.demo.js"
     },
     "devDependencies": {
         "d3-queue": "^3.0.7",
+        "html-webpack-plugin": "^3.2.0",
+        "http-server": "^0.11.1",
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.10"
     }
