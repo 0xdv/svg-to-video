@@ -1,8 +1,18 @@
 {
     "name": "svg-to-video",
-    "version": "0.0.5",
-    "description": "",
+    "version": "0.0.6",
+    "description": "The tool for capturing interations on svg images to videos in the browser",
     "main": "dist/svg-to-video.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/0xC0FFEEC0DE/svg-to-video"
+    },
+    "homepage": "https://github.com/0xC0FFEEC0DE/svg-to-video",
+    "bugs": {
+        "url": "https://github.com/0xC0FFEEC0DE/svg-to-video/issues"
+    },
+    "author": "0xC0FFEEC0DE <0xc0ffec0de@gmail.com>",
+    "license": "MIT",
     "scripts": {
         "demo:start": "http-server demo",
         "demo:build": "webpack --config webpack.demo.js"
