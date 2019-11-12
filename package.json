@@ -1,6 +1,6 @@
 {
     "name": "svg-to-video",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "The tool for capturing interations on svg images to videos in the browser",
     "main": "dist/svg-to-video.js",
     "repository": {
