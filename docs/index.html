@@ -1,1 +1,32 @@
-Heya!
+<html>
+    <head>
+        <title>svg-to-video demo</title>
+        <script src="//d3js.org/d3.v5.js"></script>
+        <style>
+            body {
+                font-family: 'Avenir', Helvetica, Arial, sans-serif;
+                text-align: center;
+                background-color: #f9f9f9;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>svg-to-video demo</h3>
+        <svg id='graph'></svg>
+
+        <!-- load script -->
+        <script src="https://unpkg.com/svg-to-video@0.0.7"></script>
+
+        <script>
+            // select your element you want to capture
+            let svg = document.querySelector('svg')
+
+            // init recorder with your options
+            svgToVideo.init({
+                drawScene: () => svg,
+                width: 600,
+                height: 200,
+            })
+        </script>
+    <script type="text/javascript" src="main.js"></script></body>
+</html>

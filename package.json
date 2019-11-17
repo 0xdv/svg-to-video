@@ -14,7 +14,7 @@
     "author": "0xC0FFEEC0DE <0xc0ffec0de@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "demo:start": "http-server demo",
+        "demo:start": "http-server docs",
         "demo:build": "webpack --config webpack.demo.js"
     },
     "devDependencies": {

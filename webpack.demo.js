@@ -13,7 +13,7 @@ module.exports = {
     mode: 'development',
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'demo/dist'),
+        path: path.resolve(__dirname, 'docs/'),
     },
     module: {
         rules: [
