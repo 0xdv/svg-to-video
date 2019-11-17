@@ -3,6 +3,8 @@ This is tool for capturing interations on svg images to videos in the browser.
 
 It based on `MediaRecorder API` and provides UI on page.
 
+## [live demo](https://0xdv.github.io/svg-to-video/)
+
 ## Usage
 1. load script on page
 ```html
