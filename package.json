@@ -5,13 +5,13 @@
     "main": "dist/svg-to-video.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/0xC0FFEEC0DE/svg-to-video"
+        "url": "https://github.com/0xdv/svg-to-video"
     },
-    "homepage": "https://github.com/0xC0FFEEC0DE/svg-to-video",
+    "homepage": "https://github.com/0xdv/svg-to-video",
     "bugs": {
-        "url": "https://github.com/0xC0FFEEC0DE/svg-to-video/issues"
+        "url": "https://github.com/0xdv/svg-to-video/issues"
     },
-    "author": "0xC0FFEEC0DE <0xc0ffec0de@gmail.com>",
+    "author": "0xdv <0xc0ffec0de@gmail.com>",
     "license": "MIT",
     "scripts": {
         "demo:start": "http-server docs",

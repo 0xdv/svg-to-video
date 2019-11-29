@@ -2,6 +2,8 @@ import Recorder from './recorder'
 
 export function init(options) {
     let {
+        element,
+        selector,
         drawScene,
         width,
         height,
@@ -11,6 +13,25 @@ export function init(options) {
         outputContainer = document.querySelector('body'),
         autoplay = true,
     } = options
+
+    if (!drawScene) {
+        if (typeof selector === 'string') {
+            element = document.querySelector(selector)
+            if (!element) {
+                throw new Error('Invalid selector')
+            }
+        }
+
+        if (element && element instanceof SVGSVGElement) {
+            drawScene = () => element
+        } else {
+            throw new Error('Can\'t find element for capturing, please check parameters')
+        }
+    }
+
+    if (element) {
+        console.log(element)
+    }
 
     let div = document.createElement('div')
     div.id = 'videoContainer'
